@@ -1,0 +1,29 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.postTitle {
+    font-size: 25px;
+}
+
+.postHolder {
+    margin-bottom: 50px;
+}
+
+.comment-form label {
+    display: block !important;
+}
+
+#comment {
+    width: 50%;
+}
+
+.commentHR {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 30px;
+}

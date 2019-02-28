@@ -1,0 +1,141 @@
+/*
+THEME NAME: customTheme
+DESCRIPTION: Contact Stylesheet
+
+*/
+
+#contactContainer {
+	
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+
+.contactInfo {
+  display: inline-block;
+   
+  margin-right: 5%;
+font-size: 1.5vw;  
+
+}
+
+
+form {
+	width: 60%;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+input[type=text],  input[type=email]  {
+    width: 100%;	
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 1.2vw;
+}
+
+label {
+	display: block;
+	font-size: 1.5vw;
+	
+}
+
+.inputHolder {
+	display: inline-block;
+	width: 45%;
+	margin-right: 10%;
+}
+
+#second {
+	margin-right: 0;
+}
+
+
+#messageArea {
+	height: 25%;
+	padding-top: 0;
+	padding-left: 0;
+	width: 100%;
+	font-size: 1.2vw;
+}
+
+
+input[type=submit] {
+    width: 25%;
+    background-color: teal;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.wpcf7-textarea {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1100px) {
+	
+	.contactInfo {
+		font-size: 17px;
+		
+	}
+	
+	label {
+		font-size: 17px;
+		
+	}
+	
+	form {
+		width: 80%;
+	}
+	
+	input[type=text], #messageArea  {
+		font-size: 15px;
+		
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	input[type=submit] {
+		width: 100%;
+	}
+	
+	.inputHolder  {
+		margin-right: 0;
+		width: 100%;
+		display: block;
+		
+	}
+	
+	.way {
+		display: block;
+	}
+	
+	.contactInfo {
+		margin-bottom: 3%;
+	}
+	
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
