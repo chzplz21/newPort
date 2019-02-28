@@ -17,7 +17,7 @@ $(document).ready(function($){
           height: '100%',
           width: '100%',
           videoId: 'S0DSvJwLe8s',
-          playerVars: {'controls':0, 'Loop':1, 'origin': 'http://www.rothkopfwebworks.com', 'enablejsapi': 1 },
+          playerVars: {'controls':0, 'Loop':1, 'playlist': 'S0DSvJwLe8s',  'origin': 'http://www.rothkopfwebworks.com', 'enablejsapi': 1 },
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
