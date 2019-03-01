@@ -14,7 +14,7 @@
 
 <body>
    
-        <a href = "/">
+        <a href = "/portfolio">
             <div class = "topCircle teal">
                 
                 RWW
@@ -23,14 +23,14 @@
         </a>
 
         <div id = "topNavContainer">
-            <a href = "/mywork">
+            <a href = "/portfolio/mywork">
                 <div class = "navBox">
                     
                     My Work
                     
                 </div>
             </a>
-            <a href = "/blog">
+            <a href = "/portfolio/blog">
                 <div class = "navBox">
                 
                     Blog
@@ -38,7 +38,7 @@
                 </div>
             </a>
             
-            <a href = "/contact">
+            <a href = "/portfolio/contact">
             <div class = "navBox" id = "last">
                 
                     Contact

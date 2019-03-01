@@ -175,6 +175,13 @@ hr {
 	background-size: cover;
 }
 
+#wearesimilar {
+	background: url("../images/wearesimilar.png");
+
+	background-size: cover;
+}
+
+
 .smallBoxesContainer {
 	display: inline-block;
 	width: 60%;

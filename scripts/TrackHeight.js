@@ -5,6 +5,7 @@ $(document).ready(function($){
     var TrackHeight  = (function() {
 
         var VideoHeightInit = $("#mainVid").height();
+      
         
             VideoHeightInit = VideoHeightInit - 60;
         var textBlock = $("#textBlock");
@@ -68,7 +69,7 @@ $(document).ready(function($){
 
     }());
 
-    //TrackHeight.init();
+   // TrackHeight.init();
 
 
 });
