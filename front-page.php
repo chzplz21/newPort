@@ -5,9 +5,6 @@
 <div id = "container" >
 
 	<img class = "dummy" src = "https://miamirobinsongroup.com/wp-content/uploads/2014/04/downtown_miami2.jpg">
-<!--
-	<iframe id = "mainVid" src="https://www.youtube.com/embed/S0DSvJwLe8s?wmode=opaque&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1&mute=1&loop=1&playlist=S0DSvJwLe8s" class = "video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	-->
 	
 	<div id  = "mainVid"></div>
 	
