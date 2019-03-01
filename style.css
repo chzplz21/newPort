@@ -425,7 +425,15 @@ p {
 
 	#container {
 		overflow-y: visible;
-		margin-top: 75px;
+		
+	}
+
+	.dummy {
+		opacity: 1 !important;
+	}
+
+	#mainVid {
+		display: none;
 	}
 
 	
