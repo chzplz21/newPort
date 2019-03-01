@@ -18,7 +18,7 @@
 			Rothkopf Web Works
 			</h1>
 			<p>
-			Hey! My name is David Rothkopf and I am a web developer living in South Florida. My professional experience includes working for a legal
+			yo! My name is David Rothkopf and I am a web developer living in South Florida. My professional experience includes working for a legal
 			services company called	Agency for Civil Enforcement where I was responsible for developing and maintaining a custom MVC Framework written in PHP 
 			and MySQL. I have also worked for a Web Development company called Sleon Productions where I was the sole developer on projects 
 			including Wordpress websites for the Miami International Airport and the National Children's Center, an organization based in 
