@@ -97,13 +97,9 @@ All sites/applications listed below were developed solely by myself unless other
  
 	<div class = "rightSide">
 		<div class = "textContainer">
-		<h1 class = "webTitle">We Are Similar</h1>
-		While working for Sleon Productions, I was tasked with developing an application 
-		for the Miami International Airport which would allow shoppers to print out, as well 
-		as use their phones to display coupons throughout the airport during the holiday season. 
-		The site utitlizes Javascript browser cacheing capabilities, allowing users to click on as many 
-		coupons as they like, save them, and print them out. Alternatively they can just use their phones 
-		to show their saved coupons. Also, this application allows users to filter their coupon search by airport terminal and store type.
+		<h1 class = "webTitle">We Are Similar, Made with Laravel</h1>
+		Wearesimilar.com is a web app I made with Laravel which connects you to others based on specific things that
+		you like.
 		</div>
 		
 		<div class = "buttonsContainer">
