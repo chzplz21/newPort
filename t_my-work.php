@@ -125,7 +125,7 @@ All sites/applications listed below were developed solely by myself unless other
 </div>
 
 <div class = "mainContainerContact">
-	<a href = "http://www.rothkopfwebworks.com/wp/" target="_blank">
+	<a href = "http://www.rothkopfwebworks.com/Coupons/" target="_blank">
 		<div class = "screenShotContainer" id = "coupons">
 		</div>
 	</a>
@@ -142,7 +142,7 @@ All sites/applications listed below were developed solely by myself unless other
 		</div>
 		
 		<div class = "buttonsContainer">
-			<a href = "http://www.rothkopfwebworks.com/wp/" target="_blank">
+			<a href = "http://www.rothkopfwebworks.com/Coupons/" target="_blank">
 				<div class = "Button" id = "viewButton">
 						View Site
 				</div>
