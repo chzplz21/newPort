@@ -27,3 +27,15 @@
 h2 {
     font-size: 30px;
 }
+
+#blogH1 {
+ font-size: 30px;
+}
+
+.comment-form {
+    margin-left: 0;
+}
+
+#comment {
+    width: 100%;
+}

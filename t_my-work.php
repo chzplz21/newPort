@@ -10,41 +10,6 @@
 All sites/applications listed below were developed solely by myself unless otherwise noted.
 </h1>
 
-<div class = "mainContainerContact">
-	<a href = "http://www.rothkopfwebworks.com/wp/" target="_blank">
-		<div class = "screenShotContainer" id = "coupons">
-		</div>
-	</a>
- 
-	<div class = "rightSide">
-		<div class = "textContainer">
-		<h1 class = "webTitle">Miami International Airport Holiday Coupons</h1>
-		While working for Sleon Productions, I was tasked with developing an application 
-		for the Miami International Airport which would allow shoppers to print out, as well 
-		as use their phones to display coupons throughout the airport during the holiday season. 
-		The site utitlizes Javascript browser cacheing capabilities, allowing users to click on as many 
-		coupons as they like, save them, and print them out. Alternatively they can just use their phones 
-		to show their saved coupons. Also, this application allows users to filter their coupon search by airport terminal and store type.
-		</div>
-		
-		<div class = "buttonsContainer">
-			<a href = "http://www.rothkopfwebworks.com/wp/" target="_blank">
-				<div class = "Button" id = "viewButton">
-						View Site
-				</div>
-			</a>
-			<a href = "https://github.com/chzplz21/CouponsOfficial" target="_blank">
-				<div class = "Button" id = "sourceContainer">
-						View GitHub Repository
-						
-				</div>
-			</a>
-		</div>
-		
-	</div>
- 
-</div>
-
 
 <div class = "mainContainerContact">
 	<div class = "smallBoxesContainer">
@@ -92,18 +57,20 @@ All sites/applications listed below were developed solely by myself unless other
 		
 	</div>
  
-	<div class = "rightSide">
-		<div class = "textContainer">
-		<h1 class = "webTitle">Suite of Legal Service Web Apps utilizing a common custom MVC Framework</h1>
+	<div class = "rightSide" id ="aMVC">
+		<div class = "textContainer" >
+		<h1 class = "webTitle">Suite of Legal Service Web Apps utilizing a single, custom MVC Framework</h1>
 		While working for A.C.E. Inc, a private legal process serving company based in South Florida, I 
-		developed a suite of web apps which utilized a common, custom PHP MVC framework.
+		developed a suite of web apps which all utilized a single, custom PHP MVC framework.
 		<br><br>
-
 		Each of the web sites listed to the left instantiate a unique Class and unique MySQL table. Each of those Classes inherit 
-		from a common Parent Class, forming the backbone of the framework. 
+		from a common Parent Class, forming the backbone of the framework. Yes, these sites do look similar, but they each
+		contain unique data and have slightly different functionality.
 		<br><br>
-		The main search field on the landing page uses the JQuery UI plugin. The search input is passed to the backend where the DB contains
-		a record for every city, state, and county in America. From there users can navigate to 
+		The main search field on the landing page uses the JQuery UI autocomplete plugin. Users can search by location 
+		and navigate to pages for every city, county, zip code, and state in America.
+		<br><br>
+		The exception is weservcorporations.com which contains data for Florida companies instead of locations.
 
 
 		</div>
@@ -120,6 +87,42 @@ All sites/applications listed below were developed solely by myself unless other
 	</div>
  
 </div>
+
+<div class = "mainContainerContact">
+	<a href = "http://www.rothkopfwebworks.com/wp/" target="_blank">
+		<div class = "screenShotContainer" id = "coupons">
+		</div>
+	</a>
+ 
+	<div class = "rightSide">
+		<div class = "textContainer">
+		<h1 class = "webTitle">Miami International Airport Holiday Coupons</h1>
+		While working for Sleon Productions, I was tasked with developing an application 
+		for the Miami International Airport which would allow shoppers to print out, as well 
+		as use their phones to display coupons throughout the airport during the holiday season. 
+		The site utitlizes Javascript browser cacheing capabilities, allowing users to click on as many 
+		coupons as they like, save them, and print them out. Alternatively they can just use their phones 
+		to show their saved coupons. Also, this application allows users to filter their coupon search by airport terminal and store type.
+		</div>
+		
+		<div class = "buttonsContainer">
+			<a href = "http://www.rothkopfwebworks.com/wp/" target="_blank">
+				<div class = "Button" id = "viewButton">
+						View Site
+				</div>
+			</a>
+			<a href = "https://github.com/chzplz21/CouponsOfficial" target="_blank">
+				<div class = "Button" id = "sourceContainer">
+						View GitHub Repository
+						
+				</div>
+			</a>
+		</div>
+		
+	</div>
+ 
+</div>
+
 
 
 

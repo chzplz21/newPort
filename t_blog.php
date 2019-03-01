@@ -17,7 +17,7 @@
  // The Loop
  ?>
  <div class = "container">
-    <h1> Some web dev knowledge nuggets I find interesting... </h1>
+    <h1 id = "blogH1"> Some web dev knowledge nuggets I find interesting... </h1>
 <?php
     if ( $the_query->have_posts() ) {
       

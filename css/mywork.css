@@ -356,6 +356,19 @@ font-size: 20px;
 }
 
 
+@media only screen and (max-width: 1000px) {
+.smallBoxesContainer {
+	width: 100%;
+
+}
+
+#aMVC {
+	width: 90%;
+}
+
+}
+
+
 @media only screen and (max-width: 850px) {
 	
 .screenShotContainer {
@@ -384,6 +397,8 @@ font-size: 20px;
 	text-align: center;
 }
 
+
+
 	
 	
 }
@@ -396,6 +411,17 @@ font-size: 20px;
 		
 	}
 	
+}
+
+@media only screen and (max-width: 650px) {
+
+.smallBox {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
 }
 
 
