@@ -29,8 +29,8 @@
 			adapt to other PHP frameworks. The progamming mantra, "DRY", Don't Repeat Yourself, is something I religously adhere to.
 			<br>
 			<br>
-			On the front end, I am adept at  working within the DOM with HTML/CSS/Javascript/jQuery. I'm knowledgeble within Wordpress as all projects I did with 
-			Sleon Productions were within the Wordpress platform. 
+			On the front end, I am adept at  working within the DOM with HTML/CSS/JavaScript/jQuery. I'm knowledgeble within WordPress as all projects I did with 
+			Sleon Productions were within the WordPress platform. 
 			<br>
 			<br>
 			I'm very easy to get along with and I have a BA in Philosophy from UCF. 
