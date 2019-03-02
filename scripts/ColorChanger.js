@@ -33,13 +33,11 @@ $(document).ready(function($){
         }
 
    
-        /* =================== public methods ================== */
-        // main init method
+      
         function init() {
             setInterval(change, 6000);
         }
       
-        /* =============== export public methods =============== */
         return {
           init: init
         };

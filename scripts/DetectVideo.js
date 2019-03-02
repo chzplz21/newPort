@@ -50,18 +50,76 @@ $(document).ready(function($){
       
         var elem = document.querySelector('.dummy');
         fadeEffect;
-          var fadeEffect = setInterval(function () {
-            if (!elem.style.opacity) {
-                elem.style.opacity = 1;
-            }
-            if (elem.style.opacity > 0) {
-                elem.style.opacity -= 0.1;
-            } else {
-                clearInterval(fadeEffect);
-            }
-        }, 200);
+        
+        var VideoHeightInit = $("#mainVid").height();
+        VideoHeightInit = VideoHeightInit - 60;
+        setHeightStatic(VideoHeightInit);
+          
+            var fadeEffect = setInterval(function () {
+              if (!elem.style.opacity) {
+                  elem.style.opacity = 1;
+              }
+              if (elem.style.opacity > 0) {
+                  elem.style.opacity -= 0.1;
+              } else {
+                  clearInterval(fadeEffect);
+              }
+          }, 200);
+       
         //elem.parentNode.removeChild(elem);
 
       }
+
+      
+      function setHeightStatic(VideoHeight) {
+        var textBlock = $("#textBlock");
+          console.log(VideoHeight);
+          if ($(textBlock).css("float") != "none" ) {
+              $(textBlock).css("height", VideoHeight);
+              
+              }
+              
+          else {
+              $(textBlock).css("height", "auto");
+              $(textBlock).css("overflow", "hidden");
+          }
+
+      }
+      
+      $(window).resize(function(){
+      
+          if ($("#textBlock").css("float") != "none" ) {
+                  
+              var VideoHeight = $("#mainVid").height();
+              VideoHeight = VideoHeight - 60;
+              console.log(VideoHeight);
+              $("#textBlock").css("height", VideoHeight);
+              $("#textBlock").css("overflow", "scroll");
+              //var textHeight = $(".").height();
+          
+          }
+          
+          else if ($("#textBlock").css("float") == "none" )  {
+              
+              $("#textBlock").css("height", "auto");
+              
+              $("#textBlock").css("overflow", "hidden");
+              //var textHeight = $(".").height();
+              
+              
+                  
+          }
+      });
+
+     
+    
+
+
+
+
+
+
+
+
     
     });

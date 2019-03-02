@@ -17,6 +17,9 @@ body {
 	margin: 0;
 }
 
+
+
+
 ::-webkit-scrollbar {
     width: 20px;
 }
@@ -238,7 +241,7 @@ hr {
 	color: white;
 	 overflow: scroll;
 	 overflow-x: hidden;
-	 margin-top: 5%;
+	/* margin-top: 5%; */
 	
 }
 
@@ -397,7 +400,7 @@ p {
 
 #textBlock {
 	
-	width: 50%;
+	width: 65%;
 
 }
 

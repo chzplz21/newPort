@@ -98,8 +98,16 @@ All sites/applications listed below were developed solely by myself unless other
 	<div class = "rightSide">
 		<div class = "textContainer">
 		<h1 class = "webTitle">We Are Similar, Made with Laravel</h1>
-		Wearesimilar.com is a web app I made with Laravel which connects you to others based on specific things that
-		you like.
+		<b>Note: This is a Demo Web App. All info/images on this site are dummy data pulled in from API's which provide such dummy data.</b>
+		<br><br>
+		Wearesimilar.com is a web app I made with Laravel based on the concept of connecting people based on 
+		specific things that they like, ie. "motorcycles", "football", "computers". So, a user can type in a series of things
+		they like, seperated by commas, and everyone else in the DB who likes those things is selected and shown to the user, in order 
+		of commonality.
+		<br><br>
+		The app makes use of Laravel's authentication classes and has full CRUD functionality.
+		
+		
 		</div>
 		
 		<div class = "buttonsContainer">
