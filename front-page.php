@@ -5,7 +5,7 @@
 <div id = "container" >
 
 	<img class = "dummy" src = "https://miamirobinsongroup.com/wp-content/uploads/2014/04/downtown_miami2.jpg">
-		
+
 	<div id  = "mainVid"></div>
 	
 	<div id = "mainContainer">
@@ -26,7 +26,7 @@
 			<br>
 			<br>
 			On the back end, I am proficient in writing clean, maintainable, Object Oriented PHP. I have worked a lot with Laravel and can
-			adapt to other PHP frameworks. I religously adhere to the prorgamming mantra, "DRY", Don't Repeat Yourself.
+			adapt to other PHP frameworks. The progamming mantra, "DRY", Don't Repeat Yourself, is something I religously adhere to.
 			<br>
 			<br>
 			On the front end, I am adept at  working within the DOM with HTML/CSS/Javascript/jQuery. I'm knowledgeble within Wordpress as all projects I did with 
