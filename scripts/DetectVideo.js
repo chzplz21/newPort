@@ -17,7 +17,7 @@ $(document).ready(function($){
           height: '100%',
           width: '100%',
           videoId: 'S0DSvJwLe8s',
-          playerVars: {'controls':0, 'Loop':1, 'playlist': 'S0DSvJwLe8s',  'origin': 'http://www.rothkopfwebworks.com', 'enablejsapi': 1 },
+          playerVars: { 'Loop':1, 'playlist': 'S0DSvJwLe8s',  'origin': 'http://www.rothkopfwebworks.com', 'enablejsapi': 1 },
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -42,7 +42,11 @@ $(document).ready(function($){
         if (event.data == YT.PlayerState.PLAYING && !done) {
             playingNow();
           done = true;
+        }else if (event.data == YT.PlayerState.ENDED) {
+          player.seekTo(0);
+          player.playVideo();
         }
+
       }
 
 
@@ -54,8 +58,9 @@ $(document).ready(function($){
         var VideoHeightInit = $("#mainVid").height();
         VideoHeightInit = VideoHeightInit - 60;
         setHeightStatic(VideoHeightInit);
-          
-            var fadeEffect = setInterval(function () {
+        
+        
+        var fadeEffect = setInterval(function () {
               if (!elem.style.opacity) {
                   elem.style.opacity = 1;
               }
@@ -73,7 +78,7 @@ $(document).ready(function($){
       
       function setHeightStatic(VideoHeight) {
         var textBlock = $("#textBlock");
-          console.log(VideoHeight);
+         
           if ($(textBlock).css("float") != "none" ) {
               $(textBlock).css("height", VideoHeight);
               
