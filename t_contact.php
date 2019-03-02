@@ -11,7 +11,7 @@
         </div>
 
         <div class = "contactInfo">
-        <span class = "way">Email:</span> <b>davidrothkopf1@gmail.com</b>
+        <span class = "way">Email:</span> <b>rothkopfwebworks@gmail.com</b>
         </div>
     </div>
 
