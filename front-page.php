@@ -19,13 +19,13 @@
 			</h1>
 			<p>
 			Hey! My name is David Rothkopf and I am a PHP/JavaScript web developer living in South Florida. My professional experience includes working for a legal
-			services company called	Agency for Civil Enforcement where I developed and maintained a custom MVC Framework written in PHP 
+			services company called	Agency for Civil Enforcement where I developed and maintained <a href = "/portfolio/mywork#aMVC" class = "frontLink">a custom MVC Framework</a> written in PHP 
 			and MySQL. I have also worked for a Web Development company called Sleon Productions where I was the sole developer on projects 
-			including Wordpress websites for the Miami International Airport and the National Children's Center, an organization based in 
+			including Wordpress websites for the <a href = "/portfolio/mywork#mia" class = "frontLink"> Miami International Airport </a> and the National Children's Center, an organization based in 
 			Washington DC. 
 			<br>
 			<br>
-			On the back end, I am proficient in writing clean, maintainable, Object Oriented PHP. I have worked a lot with Laravel and can
+			On the back end, I am proficient in writing clean, maintainable, Object Oriented PHP. I have worked extensively with Laravel and can
 			adapt to other PHP frameworks. The progamming mantra, "DRY", Don't Repeat Yourself, is something I religously adhere to.
 			<br>
 			<br>

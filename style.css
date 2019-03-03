@@ -18,7 +18,13 @@ body {
 }
 
 
+.frontLink {
+	color: teal;
+}
 
+.frontLink:hover  {
+	text-decoration: underline;
+}
 
 ::-webkit-scrollbar {
     width: 20px;

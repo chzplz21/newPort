@@ -134,7 +134,7 @@ All sites/applications listed below were developed solely by myself unless other
 		</div>
 	</a>
  
-	<div class = "rightSide">
+	<div class = "rightSide" id = "mia">
 		<div class = "textContainer">
 		<h1 class = "webTitle">Miami International Airport Holiday Coupons</h1>
 		While working for Sleon Productions, I was tasked with developing an application 
