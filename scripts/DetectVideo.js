@@ -1,17 +1,20 @@
 var $ = jQuery;
 
-$(document).ready(function($){
-      
-    var tag = document.createElement('script');
+var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    
+    var YTdeferred = $.Deferred();
+    window.onYouTubeIframeAPIReady = function() {
+      YTdeferred.resolve(window.YT);
+    }
 
-         // 3. This function creates an <iframe> (and YouTube player)
+$(document).ready(function($){
+      
+      // 3. This function creates an <iframe> (and YouTube player)
       //    after the API code downloads.
       var mainVid;
-      window.onYouTubeIframeAPIReady = function() {
+      YTdeferred.done(function(YT) {
         
         player = new YT.Player('mainVid', {
           height: '100%',
@@ -26,7 +29,7 @@ $(document).ready(function($){
 
         ytLoaded = true;
 
-      }
+      });
 
       // 4. The API will call this function when the video player is ready.
       function onPlayerReady(event) {

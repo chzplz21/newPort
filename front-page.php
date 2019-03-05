@@ -5,7 +5,7 @@
 <div id = "container" >
 
 	<img class = "dummy" src = "https://miamirobinsongroup.com/wp-content/uploads/2014/04/downtown_miami2.jpg">
-
+	
 	<div id  = "mainVid"></div>
 	
 	<div id = "mainContainer">

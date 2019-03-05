@@ -23,7 +23,7 @@ body {
 }
 
 .frontLink:hover  {
-	text-decoration: underline;
+	text-decoration: underline;	
 }
 
 ::-webkit-scrollbar {
