@@ -207,7 +207,7 @@ hr {
 	
 	z-index: 10000;
 	
-	height: auto;
+	height: 700px;
 	/*top: 5%;*/
 	left: 0;
 	right: 0;
@@ -238,7 +238,7 @@ hr {
 #textBlock {
 	float: right;
 	width: 70%;
-	height: 600px;
+	height: 700px;
 	background-color: rgba(255, 128, 114, 0.9);
 	display: inline-block;
 	vertical-align: top;
