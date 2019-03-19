@@ -52,13 +52,18 @@ body {
 #container {
 	position: relative;
 	overflow-y: hidden;
+	height: 0;
+	padding-bottom: 56.25%;
+	width: 100%;
 	
 }
+
+
 
 .dummy {
 	position: absolute;
 	width: 100%;
-	
+
 	z-index: 100;
 }
 
@@ -202,9 +207,7 @@ hr {
 }
 #mainContainer {
 	width: 70%;
-
 	position: absolute;
-	
 	z-index: 10000;
 	
 	height: 700px;
@@ -236,19 +239,21 @@ hr {
 
 
 #textBlock {
+	
 	float: right;
 	width: 70%;
-	height: 700px;
+
 	background-color: rgba(255, 128, 114, 0.9);
 	display: inline-block;
 	vertical-align: top;
 	box-sizing: border-box;
 	padding: 3%;
 	color: white;
+	
 	 overflow: scroll;
 	 overflow-x: hidden;
 	/* margin-top: 5%; */
-	
+
 }
 
 h1 {
@@ -267,14 +272,7 @@ a {
 
 
 
-#container {
-    position: relative;
-    width: 100%;
-    height: 0;
-	padding-bottom: 56.25%;
 
-	
-}
 
 
 .music {
@@ -458,8 +456,6 @@ p {
 	display: block;
 	margin: 0 auto;
 	width: 100%;
-
-
 	margin-bottom: 3%;
 }
 

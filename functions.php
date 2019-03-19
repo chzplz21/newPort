@@ -7,6 +7,8 @@
     wp_enqueue_style("contact", get_template_directory_uri() . '/css/contact.css');
     //wp_enqueue_script( 'index', get_template_directory_uri() . '/scripts/index.js', array ( 'jquery' ),  NULL, false);
     wp_enqueue_script( 'ColorChanger', get_template_directory_uri() . '/scripts/ColorChanger.js', array ( 'jquery' ),  NULL, false);
+    wp_enqueue_script( 'TrackHeight', get_template_directory_uri() . '/scripts/TrackHeight.js', array ( 'jquery' ),  NULL, false);
+    
     //wp_enqueue_script( 'DetectVideo', get_template_directory_uri() . '/scripts/DetectVideo.js', array ( 'jquery' ),  NULL, false);
 }
 add_action("wp_enqueue_scripts", "enqueue_customtheme_styles");
