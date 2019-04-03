@@ -7,7 +7,7 @@
 ?>
 
 <h1 id = "allSites">
-All sites/applications listed below were developed solely by myself unless otherwise noted.
+Sites/applications I have worked on and developed.
 </h1>
 
 
@@ -75,14 +75,6 @@ All sites/applications listed below were developed solely by myself unless other
 
 		</div>
 		
-		<div class = "buttonsContainer">
-			<a href = "https://github.com/chzplz21/MVC" target="_blank">
-				<div class = "Button" id = "sourceContainer">
-						View GitHub Repository
-						
-				</div>
-			</a>
-		</div>
 		
 	</div>
  
