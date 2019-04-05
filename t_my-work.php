@@ -60,19 +60,7 @@ Sites/applications I have worked on and developed.
 	<div class = "rightSide" id ="aMVC">
 		<div class = "textContainer" >
 		<h1 class = "webTitle">Suite of Legal Service Web Apps utilizing a single, custom MVC Framework</h1>
-		While working for A.C.E. Inc, a private legal process serving company based in South Florida, I 
-		developed a suite of web apps which all utilized a single, custom PHP MVC framework.
-		<br><br>
-		Each of the web sites listed to the left instantiate a unique Class and unique MySQL table. Each of those Classes inherit 
-		from a common Parent Class, forming the backbone of the framework. Yes, these sites do look similar, but they each
-		contain unique data and have slightly different functionality.
-		<br><br>
-		The main search field on the landing page uses the JQuery UI autocomplete plugin. Users can search by location 
-		and navigate to pages for every city, county, zip code, and state in America.
-		<br><br>
-		The exception is weservcorporations.com which contains data for Florida companies instead of locations.
-
-
+	
 		</div>
 		
 		
